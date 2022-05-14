@@ -12,13 +12,11 @@ If we need to pop **smaller** elements from the stack before pushing a new eleme
 
 
 
-### Questions Attempted&#x20;
+### Questions&#x20;
 
 1. Basic Monotonic Question [https://leetcode.com/problems/daily-temperatures/](https://leetcode.com/problems/daily-temperatures/) :orange\_circle:
 
 Ordering/Indexing is taken care by the order in which elements go in the stack. Magnitude and comparing values is done by making the stack monotonic.&#x20;
-
-2\.&#x20;
 
 
 

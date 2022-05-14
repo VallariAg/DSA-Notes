@@ -20,4 +20,3 @@ Implementation:
 
 * Three ways to implement prioirty queue in python: [https://pythonguides.com/priority-queue-in-python/](https://pythonguides.com/priority-queue-in-python/)
 
-### Questions
