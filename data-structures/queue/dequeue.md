@@ -9,7 +9,7 @@ The name stands for **d**ouble-**e**nded **que**ue.
 * Operations for left: **popleft()** and **appendleft(item)**
 * Operations for right: **pop()** and **append(item)**&#x20;
 
-```
+```python
 from collections import deque
 
 numbers = deque([1, 2, 3, 4])

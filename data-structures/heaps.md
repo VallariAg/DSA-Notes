@@ -34,7 +34,7 @@ Basic Functions:
 
 heapq impliments MinHeap by default, to impliment MaxHeap:
 
-```
+```python
 class MaxHeap: 
     def __init__(self, array = []):
         self.heap = array

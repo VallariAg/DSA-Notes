@@ -7,7 +7,7 @@ Memory: O(N) where N is the capacity of our queue.
 
 **Code:**
 
-```
+```python
 class MyCircularQueue:
 
     def __init__(self, k: int):
