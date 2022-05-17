@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome!](README.md)
+* [Python Tricks](python-tricks.md)
 
 ## Data Structures
 
