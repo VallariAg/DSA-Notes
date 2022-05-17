@@ -30,7 +30,30 @@ Basic Functions:
 * `heapq.nlargest`(_n_, _iterable_, _key=None_)
 * `heapq.nsmallest`(_n_, _iterable_, _key=None_)
 
+\---&#x20;
 
+heapq impliments MinHeap by default, to impliment MaxHeap:
+
+```
+class MaxHeap: 
+    def __init__(self, array = []):
+        self.heap = array
+        self.heapify()
+        
+    def heapify(self):
+        self.heap = list(map(lambda x: -x, self.heap))
+        heapq.heapify(self.heap)
+
+    def push(self, item):
+        heapq.heappush(self.heap, -item)
+        
+    def pop(self):
+        popped = heapq.heappop(self.heap)
+        return -popped
+    
+    def length(self):
+        return len(self.heap)
+```
 
 ### Resources
 
