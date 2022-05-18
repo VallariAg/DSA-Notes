@@ -9,6 +9,7 @@
   * [Sliding Window](data-structures/array/sliding-window.md)
 * [Stacks](data-structures/stacks/README.md)
   * [Monotonic Stack](data-structures/stacks/monotonic-stack.md)
+* [Hash Table](data-structures/hash-table.md)
 * [Queue](data-structures/queue/README.md)
   * [Dequeue](data-structures/queue/dequeue.md)
   * [Circular Queue](data-structures/queue/circular-queue.md)
