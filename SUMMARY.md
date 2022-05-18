@@ -19,10 +19,8 @@
 * [Graphs](data-structures/graphs/README.md)
   * [DFS / BFS](data-structures/graphs/dfs-bfs.md)
   * [Shortest Path](data-structures/graphs/shortest-path.md)
+  * [Minimum Spanning Tree](data-structures/graphs/minimum-spanning-tree.md)
   * [Topological Sort](data-structures/graphs/topological-sort.md)
-  * [Minimum Spanning Tree](data-structures/graphs/minimum-spanning-tree/README.md)
-    * [Kruskal](data-structures/graphs/minimum-spanning-tree/kruskal.md)
-    * [Prim](data-structures/graphs/minimum-spanning-tree/prim.md)
 
 ## Algorithms
 
