@@ -18,11 +18,15 @@
 * [Trees](data-structures/trees.md)
 * [Graphs](data-structures/graphs/README.md)
   * [DFS / BFS](data-structures/graphs/dfs-bfs.md)
+  * [Shortest Path](data-structures/graphs/shortest-path.md)
+  * [Topological Sort](data-structures/graphs/topological-sort.md)
+  * [Minimum Spanning Tree](data-structures/graphs/minimum-spanning-tree/README.md)
+    * [Kruskal](data-structures/graphs/minimum-spanning-tree/kruskal.md)
+    * [Prim](data-structures/graphs/minimum-spanning-tree/prim.md)
 
 ## Algorithms
 
-* [Sorting](algorithms/sorting/README.md)
-  * [Topological Sort](algorithms/sorting/topological-sort.md)
+* [Sorting](algorithms/sorting.md)
 * [Greedy](algorithms/greedy.md)
 * [Dynamic Programming](algorithms/dynamic-programming.md)
 * [Backtracking](algorithms/backtracking.md)
