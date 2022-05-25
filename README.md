@@ -13,6 +13,7 @@ Airtable of solved questions: [https://airtable.com/shrzwfztR8yDFsRfw](https://a
 ## Few resources on Data Structure and Algorithms
 
 * Awesome Gitbook notes: [https://liuzhenglaichn.gitbook.io/algorithm/monotonic-stack](https://liuzhenglaichn.gitbook.io/algorithm/monotonic-stack)
+* 14 patterns in questions: [https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
 
 #### Youtube channels:
 
