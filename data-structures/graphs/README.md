@@ -9,7 +9,7 @@ They can be **directed** or **undirected**.
 1. **Adjacency List**
 2. **Adjacency Matrix**
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
 #### Graph Algorithms:
 
