@@ -4,11 +4,7 @@ coverY: 0
 
 # Welcome!
 
-Gitbook link: [https://vallari.gitbook.io/data-structure-and-algorithms/](https://vallari.gitbook.io/data-structure-and-algorithms/)
-
-Github link: [https://github.com/VallariAg/DSA-Notes](https://github.com/VallariAg/DSA-Notes)
-
-Airtable of solved questions: [https://airtable.com/shrzwfztR8yDFsRfw](https://airtable.com/shrzwfztR8yDFsRfw)
+Links - [Gitbook](https://vallari.gitbook.io/data-structure-and-algorithms/) | [Github](https://github.com/VallariAg/DSA-Notes) | [Airtable of my Solved Questions ](https://airtable.com/shrzwfztR8yDFsRfw)
 
 ### Few resources on Data Structure and Algorithms
 
