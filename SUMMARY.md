@@ -28,7 +28,3 @@
 * [Greedy](algorithms/greedy.md)
 * [Dynamic Programming](algorithms/dynamic-programming.md)
 * [Backtracking](algorithms/backtracking.md)
-
-## CS Concepts
-
-* [Load Balancers](cs-concepts/load-balancers.md)
