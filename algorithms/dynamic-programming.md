@@ -1,8 +1,8 @@
 # Dynamic Programming
 
-Charcteristics:
+Characteristics:
 
-* #### Overlapping Subproblems <a href="#overlapping-subproblems" id="overlapping-subproblems"></a>
+* #### **Overlapping Subproblem**s <a href="#overlapping-subproblems" id="overlapping-subproblems"></a>
 *   #### Optimal Substructure Property <a href="#optimal-substructure-property" id="optimal-substructure-property"></a>
 
 
@@ -22,3 +22,7 @@ How To approach a Dynamic Programming Problem In Interview:
 References:
 
 * [Understand patterns of DP problems (in python) ](https://ashutosh-kumar.medium.com/dynamic-programming-types-and-patterns-7b1406c46a6b)
+
+Questions:
+
+* [List of DP leetcode questions sorted in pattern](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
