@@ -1,8 +1,4 @@
-# Binary Tree & BST
-
-**Binary Tree:** each node has 2 or less children.&#x20;
-
-Ultimate guide: [https://blog.boot.dev/computer-science/binary-search-tree-in-python/](https://blog.boot.dev/computer-science/binary-search-tree-in-python/)
+# Binary Search Tree
 
 ### Binary Search Tree
 
@@ -93,4 +89,10 @@ def deleteNode(root, key):
 
     return root
 ```
+
+### References:
+
+Implimentation:
+
+* Ultimate guide: [https://blog.boot.dev/computer-science/binary-search-tree-in-python/](https://blog.boot.dev/computer-science/binary-search-tree-in-python/)
 
