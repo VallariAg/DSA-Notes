@@ -18,7 +18,7 @@
 * [Priority Queue](data-structures/priority-queue.md)
 * [Trees](data-structures/trees/README.md)
   * [Binary Tree](data-structures/trees/binary-tree.md)
-  * [Binary Search Tree](data-structures/trees/binary-search-tree.md)
+  * [Binary Search Tree](data-structures/trees/binary-tree-and-bst.md)
 * [Graphs](data-structures/graphs/README.md)
   * [DFS / BFS](data-structures/graphs/dfs-bfs.md)
   * [Shortest Path](data-structures/graphs/shortest-path.md)
