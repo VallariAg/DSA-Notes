@@ -29,3 +29,6 @@ Minimum Spanning Tree:
 * Kruskal
 * Prim
 
+Notes on graph of interview - [here](https://leetcode.com/discuss/general-discussion/1122034/important-graph-algorithm-notes-for-interview)
+
+Pattern sorted question list: leetcode link [here](https://leetcode.com/discuss/general-discussion/655708/Graph-For-Beginners-Problems-or-Pattern-or-Sample-Solutions)

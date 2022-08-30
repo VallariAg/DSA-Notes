@@ -21,6 +21,9 @@ Links - [Gitbook](https://vallari.gitbook.io/data-structure-and-algorithms/) | [
 * [Leetcode - learn](https://leetcode.com/explore/learn/)
 * [Leetcode - study-plan](https://leetcode.com/study-plan/)
 * [Leetcode - problem-list/top-interview-questions/](https://leetcode.com/problem-list/top-interview-questions/)
-* Leetcode questions sorted in pattern of questions
-  * DP - [https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
-  * Trees - [https://leetcode.com/discuss/study-guide/1337373/Tree-question-pattern-oror2021-placement](https://leetcode.com/discuss/study-guide/1337373/Tree-question-pattern-oror2021-placement)
+*   Leetcode questions sorted in pattern of questions
+
+    * DP - [https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
+    * Trees - [https://leetcode.com/discuss/study-guide/1337373/Tree-question-pattern-oror2021-placement](https://leetcode.com/discuss/study-guide/1337373/Tree-question-pattern-oror2021-placement)
+    * Graphs - [https://leetcode.com/discuss/general-discussion/655708/Graph-For-Beginners-Problems-or-Pattern-or-Sample-Solutions](https://leetcode.com/discuss/general-discussion/655708/Graph-For-Beginners-Problems-or-Pattern-or-Sample-Solutions)
+
