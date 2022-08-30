@@ -7,6 +7,7 @@
 
 * [Array](data-structures/array/README.md)
   * [Sliding Window](data-structures/array/sliding-window.md)
+* [Linked List](data-structures/linked-list.md)
 * [Stacks](data-structures/stacks/README.md)
   * [Monotonic Stack](data-structures/stacks/monotonic-stack.md)
 * [Hash Table](data-structures/hash-table.md)
