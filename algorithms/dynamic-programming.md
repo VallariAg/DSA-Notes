@@ -23,6 +23,4 @@ References:
 
 * [Understand patterns of DP problems (in python) ](https://ashutosh-kumar.medium.com/dynamic-programming-types-and-patterns-7b1406c46a6b)
 
-Questions:
-
-* [List of DP leetcode questions sorted in pattern](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
+Pattern fo questions: (Leetcode List) [here](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
