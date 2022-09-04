@@ -11,8 +11,8 @@ def dfs(graph, start, visited=None):
 
     print(start)
 
-    for next in graph[start] - visited:
-        dfs(graph, next, visited)
+    for destination in graph[start] - visited:
+        dfs(graph, destination, visited)
     return visited
 
 
@@ -24,4 +24,30 @@ graph = {'0': set(['1', '2']),
 
 dfs(graph, '0')
 ```
+
+BFS: [https://www.programiz.com/dsa/graph-bfs](https://www.programiz.com/dsa/graph-bfs)
+
+```python
+import collections
+
+def bfs(graph, root):
+
+    visited, queue = set(), collections.deque([root])
+    visited.add(root)
+
+    while queue:
+        vertex = queue.popleft()
+        print(str(vertex) + " ", end="")
+
+        for neighbour in graph[vertex]:
+            if neighbour not in visited:
+                visited.add(neighbour)
+                queue.append(neighbour)
+
+
+graph = {0: [1, 2], 1: [2], 2: [3], 3: [1, 2]}
+bfs(graph, 0)
+```
+
+
 
