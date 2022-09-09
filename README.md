@@ -15,12 +15,14 @@ Links - [Gitbook](https://vallari.gitbook.io/data-structure-and-algorithms/) | [
 #### Youtube:
 
 * [William Fiset](https://www.youtube.com/channel/UCD8yeTczadqdARzQUp29PJw)
+* [Neetcode (Esp, Blind 75 playlist)](https://www.youtube.com/playlist?list=PLot-Xpze53ldVwtstag2TL4HQhAnC8ATf)
 
 #### Learn by doing/solving:
 
 * [Leetcode - learn](https://leetcode.com/explore/learn/)
 * [Leetcode - study-plan](https://leetcode.com/study-plan/)
 * [Leetcode - problem-list/top-interview-questions/](https://leetcode.com/problem-list/top-interview-questions/)
+* [Blind 75](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU)
 *   Leetcode questions sorted in pattern of questions
 
     * DP - [https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
