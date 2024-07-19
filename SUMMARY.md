@@ -6,6 +6,7 @@
 ## Data Structures
 
 * [Array](data-structures/array/README.md)
+  * [Two Pointer](data-structures/array/two-pointer.md)
   * [Sliding Window](data-structures/array/sliding-window.md)
 * [Linked List](data-structures/linked-list.md)
 * [Stacks](data-structures/stacks/README.md)
