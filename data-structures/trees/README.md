@@ -2,7 +2,11 @@
 
 **Height** and **Depth:**
 
-![](<../../.gitbook/assets/image (2).png>)
+<div align="left">
+
+<img src="../../.gitbook/assets/image (2).png" alt="">
+
+</div>
 
 ### Types of Tree <a href="#types" id="types"></a>
 

@@ -33,7 +33,7 @@ More priortyQueue functions:
 * **empty() –** Returns True if the queue is empty, False otherwise. It is equivalent to qsize()==0.
 * **full() –** Returns True if the queue is full, False otherwise. It is equivalent to qsize()>=maxsize.
 
-3\. `heapq` ****&#x20;
+3\. `heapq`&#x20;
 
 ```python
 import heapq

@@ -1,6 +1,6 @@
 # Graphs
 
-Graphs can be **weighted** or **unweighted**. ****&#x20;
+Graphs can be **weighted** or **unweighted**.&#x20;
 
 They can be **directed** or **undirected**.
 

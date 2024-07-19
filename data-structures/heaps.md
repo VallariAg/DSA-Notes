@@ -9,7 +9,7 @@ For array representation of heap tree, for every node at index `i` in array:
 * index of left child is given by `2i + 1` and the right child is given by `2i + 2`
 * parent of `i` is given by `(i - 1) / 2`
 
-``![](<../.gitbook/assets/image (1).png>)``
+![](<../.gitbook/assets/image (1).png>)
 
 &#x20;
 
