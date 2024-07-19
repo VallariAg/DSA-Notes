@@ -1,6 +1,6 @@
 # Sliding Window
 
-
+Tell: When a questions asks for **"consecutive string/array"** or **"substring/sub-array"**,  it _could_ be that sliding window can work.
 
 Usually we need to track 4 things:
 

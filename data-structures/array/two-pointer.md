@@ -1,10 +1,11 @@
 # Two Pointer
 
+**Tell:** Items in the list must be in **sorted** order**.** The array should be already-sorted or the question should not be asking for index (i.e. you can sort to find the answer values)
+
 _Pointers_ when solving two-pointer questions:
 
-1. Items in the list must be in sorted order. So the array should be already-sorted or the question should not be asking for index (i.e. you can sort to find the answer values)
-2. Usually I use `while pointer2 < pointer1` to loop through the array
-3. Two-pointers generally decrease the space complexity to `O(1)`
+1. Usually I use `while pointer2 < pointer1` to loop through the array
+2. Two-pointers approach generally decrease the space complexity to `O(1)` - so try this on array questions when asked to use constant space.&#x20;
 
 
 
