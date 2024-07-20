@@ -28,6 +28,7 @@
 
 ## Algorithms
 
+* [Binary Search](algorithms/binary-search.md)
 * [Sorting](algorithms/sorting.md)
 * [Greedy](algorithms/greedy.md)
 * [Dynamic Programming](algorithms/dynamic-programming.md)
