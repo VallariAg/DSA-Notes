@@ -1,8 +1,18 @@
 # Binary Search
 
-To search in a **sorted arrays**.
+Only works in **sorted arrays**.&#x20;
 
-#### Interactive&#x20;
+Binary Search is the **best method to use for searching in **_**sorted arrays**_ because it's the _fastest_ searching algorithm with O(log n), meanwhile brute force search is O(n).
+
+**Time Complexities**
+
+* **Best case complexity**: `O(1)`
+* **Average case complexity**: `O(log n)`
+* **Worst case complexity**: `O(log n)`
+
+**Space Complexity -** `O(1)`
+
+#### Interactive Method
 
 <pre class="language-python"><code class="lang-python"><strong>class Solution:
 </strong>    def iterative_binarys(self, nums: List[int], target: int):
@@ -18,7 +28,9 @@ To search in a **sorted arrays**.
         return -1
 </code></pre>
 
-#### Recursive
+#### Recursive Method
+
+Follows [the divide and conquer](https://www.programiz.com/dsa/divide-and-conquer) approach.
 
 ```python
 class Solution:
