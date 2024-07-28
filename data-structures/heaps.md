@@ -26,7 +26,7 @@ Basic Functions:
 
 * `heapq.heapify(list)`
 * `heapq.heappush`(_heap_, _item_)
-* `heapq.heappop`(_heap_)
+* `heapq.heappop`(_heap_) - returns smallest&#x20;
 * `heapq.nlargest`(_n_, _iterable_, _key=None_)
 * `heapq.nsmallest`(_n_, _iterable_, _key=None_)
 
@@ -47,7 +47,7 @@ class MaxHeap:
     def push(self, item):
         heapq.heappush(self.heap, -item)
         
-    def pop(self):
+    def pop(self): # returns largest
         popped = heapq.heappop(self.heap)
         return -popped
     
