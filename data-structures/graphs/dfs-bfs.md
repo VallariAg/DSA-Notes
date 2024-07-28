@@ -3,7 +3,7 @@
 DFS: [https://www.programiz.com/dsa/graph-dfs](https://www.programiz.com/dsa/graph-dfs)
 
 ```python
-# DFS algorithm
+# DFS algorithm (uses stacks in iterative)
 def dfs(graph, start, visited=None):
     if visited is None:
         visited = set()

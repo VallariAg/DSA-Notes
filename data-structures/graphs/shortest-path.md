@@ -33,7 +33,7 @@ Bellman Ford algorithm helps us find **the shortest path from a vertex to all ot
 
 ### [Dijkstra](https://www.programiz.com/dsa/dijkstra-algorithm)
 
-**Time:** `O(E+VlogV)` **Space:** `O(V+E)`
+**Time:** `O(E logV)` **Space:** `O(V+E)`
 
 Dijkstra's algorithm allows us to find **the** **shortest path between any two vertices of a graph**.
 
@@ -69,6 +69,7 @@ Floyd-Warshall Algorithm is an algorithm for finding **the shortest path between
 
 * Works for both the directed and undirected weighted graphs.&#x20;
 * Does not work for the graphs with negative cycles.
+* Uses DP and 2D array to solve it.&#x20;
 
 ```python
     def networkDelayTime(self, times: List[List[int]], N: int, K: int) -> int:
@@ -81,12 +82,15 @@ Floyd-Warshall Algorithm is an algorithm for finding **the shortest path between
             for i in range(N):
                 for j in range(N):
                     dist[i][j] = min(dist[i][j], dist[i][k]+dist[k][j])
+        return max(dist[K-1]) if max(dist[K-1]) < float("inf") else -1
                     
 ```
 
 ### [Shortest Path Faster Algorithm](https://www.geeksforgeeks.org/shortest-path-faster-algorithm/)
 
 **Time:** average `O(E)`, worst `O(VE)` **Space:** `O(V+E)`
+
+Based on Bellman Ford.
 
 ```python
     def networkDelayTime(self, times: List[List[int]], N: int, K: int) -> int:
