@@ -29,9 +29,64 @@ Each node has two children (left and right) and node value.
 
 ### Traversals:
 
-1. In-order: left -> root -> right
-2. Post-order: left -> right -> root
-3. Pre-order: root -> left -> right
+**In-order**: left -> root -> right
+
+[https://leetcode.com/problems/binary-tree-inorder-traversal/](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+
+```python
+class Solution:
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        stack = []
+        ans = []
+        while stack or root:
+            while root:
+                stack += [root]
+                root = root.left
+            root = stack.pop()
+            ans += [root.val]
+            root = root.right
+        return ans
+
+```
+
+**Post-order**: left -> right -> root
+
+[https://leetcode.com/problems/binary-tree-postorder-traversal/description/](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)
+
+```python
+class Solution:
+    def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        stack = [root]
+        ans = []
+        while stack:
+            curr = stack.pop()
+            if curr:
+                # pre-order, but we want to pop right first
+                ans += [curr.val]
+                stack += [curr.left] 
+                stack += [curr.right]
+        return ans[::-1]
+
+```
+
+**Pre-order**: root -> left -> right
+
+[https://leetcode.com/problems/binary-tree-preorder-traversal/](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+
+```python
+class Solution:
+    def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        stack = [root]
+        ans = []
+        while stack:
+            curr = stack.pop()
+            if curr:
+                ans += [curr.val]
+                stack += [curr.right]
+                stack += [curr.left]
+        return ans
+
+```
 
 ### References&#x20;
 
