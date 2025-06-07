@@ -1,6 +1,6 @@
 # Two Pointer
 
-**Tell:** Items in the list must be in **sorted** order**.** The array should be already-sorted or the question should not be asking for index (i.e. you can sort to find the answer values)
+**Tell:** Items in the list must be in **sorted** orde&#x72;**.** The array should be already-sorted or the question should not be asking for index (i.e. you can sort to find the answer values)
 
 _Pointers_ when solving two-pointer questions:
 

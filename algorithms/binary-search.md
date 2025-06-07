@@ -2,7 +2,7 @@
 
 Only works in **sorted arrays**.&#x20;
 
-Binary Search is the **best method to use for searching in **_**sorted arrays**_ because it's the _fastest_ searching algorithm with O(log n), meanwhile brute force search is O(n).
+Binary Search is the **best method to use for searching in&#x20;**_**sorted arrays**_ because it's the _fastest_ searching algorithm with O(log n), meanwhile brute force search is O(n).
 
 **Time Complexities**
 
