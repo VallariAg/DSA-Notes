@@ -39,16 +39,16 @@ In both implementations, we do not use Tree DS to solve it (tree is used to only
 
 Time complexity:
 
-* Heapify (convert binary tree -> heap, assuming part of tree is already heap): O(log n)
+* Heapify (convert binary tree -> heap, assuming part of tree is already heap): **O(log n)**
   * Heap up: swap `current` with `parent`, then `parent` with `grandparent`
   * Heap down: swap `current` with a `child`, then `child` with `grandchild`
-* Build heap (unsorted array -> heap sort): O (n)&#x20;
+* Build heap (unsorted array -> heap sort): **O (n)**&#x20;
   * consider leaf nodes are already heaps, heapify all other nodes from `last_non_leaf` node
-* Heappush: O(log n)
+* Heappush: **O(log n)**
   * Method: add at end -> heapify UP from there
-* Heappop: O(log n)
+* Heappop: **O(log n)**
   * Method: heapdelete with index=0
-* Heapdelete (any element): O (log n)
+* Heapdelete (any element): **O (log n)**
   * Method:  swap `index` with last leaf -> remove new last -> heapify DOWN from `index`
 
 ```python
@@ -196,3 +196,10 @@ class MaxHeap:
 ### Resources
 
 * `heapq` documentation: [https://docs.python.org/3/library/heapq.html](https://docs.python.org/3/library/heapq.html)
+
+### Good questions on Heaps
+
+* Basic: [https://leetcode.com/problems/kth-largest-element-in-a-stream/](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
+* Tricky: [https://leetcode.com/problems/task-scheduler/](https://leetcode.com/problems/task-scheduler/)
+* Design twitter (good question because it teaches that, instead of adding ALL values and making a huge heap, we can add initial set of values to heap and then pop those and add more based on the popped value): [https://leetcode.com/problems/design-twitter/](https://leetcode.com/problems/design-twitter/)
+* use your smarts: [https://leetcode.com/problems/find-median-from-data-stream/](https://leetcode.com/problems/find-median-from-data-stream/)

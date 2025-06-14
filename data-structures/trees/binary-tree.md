@@ -4,7 +4,7 @@ Each node has two children (left and right) and node value.
 
 ### Types of Binary Trees
 
-1.  #### Full Binary Tree
+1.  #### Full Binary Tree / Proper Binary Tree
 
     every parent node node has either two or no children
 2.  #### Perfect Binary Tree
@@ -14,7 +14,7 @@ Each node has two children (left and right) and node value.
 
     full binary tree, but with two major differences
 
-    1. Every level must be completely filled
+    1. Every level must be completely filled, except possibly the lowest one
     2. All the leaf elements must lean towards the left.
     3. The last leaf element might not have a right sibling i.e. a complete binary tree doesn't have to be a full binary tree.
 4.  #### Balanced Binary Tree
@@ -30,6 +30,8 @@ Each node has two children (left and right) and node value.
 ### Traversals:
 
 **In-order**: left -> root -> right
+
+<div align="left"><figure><img src="broken-reference" alt="" width="262"><figcaption><p>inorder = [4,2,6,5,7,1,3,9,8]</p></figcaption></figure></div>
 
 [https://leetcode.com/problems/binary-tree-inorder-traversal/](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
@@ -51,6 +53,8 @@ class Solution:
 
 **Post-order**: left -> right -> root
 
+<div align="left"><figure><img src="broken-reference" alt="" width="262"><figcaption><p>[4,6,7,5,2,9,8,3,1]</p></figcaption></figure></div>
+
 [https://leetcode.com/problems/binary-tree-postorder-traversal/description/](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)
 
 ```python
@@ -70,6 +74,8 @@ class Solution:
 ```
 
 **Pre-order**: root -> left -> right
+
+<div align="left"><figure><img src="broken-reference" alt="" width="262"><figcaption><p>[1,2,4,5,6,7,3,8,9]</p></figcaption></figure></div>
 
 [https://leetcode.com/problems/binary-tree-preorder-traversal/](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 
@@ -97,3 +103,5 @@ Theory:
 Implimentation:&#x20;
 
 * same link
+
+### Good questions on Binary Trees <a href="#good-questions-on-heaps" id="good-questions-on-heaps"></a>
