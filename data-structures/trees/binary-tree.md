@@ -31,7 +31,9 @@ Each node has two children (left and right) and node value.
 
 **In-order**: left -> root -> right
 
-<div align="left"><figure><img src="broken-reference" alt="" width="262"><figcaption><p>inorder = [4,2,6,5,7,1,3,9,8]</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (9).png" alt="" width="262"><figcaption></figcaption></figure></div>
+
+\[4,2,6,5,7,1,3,9,8]
 
 [https://leetcode.com/problems/binary-tree-inorder-traversal/](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 
@@ -53,7 +55,9 @@ class Solution:
 
 **Post-order**: left -> right -> root
 
-<div align="left"><figure><img src="broken-reference" alt="" width="262"><figcaption><p>[4,6,7,5,2,9,8,3,1]</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (10).png" alt="" width="262"><figcaption></figcaption></figure></div>
+
+\[4,6,7,5,2,9,8,3,1]
 
 [https://leetcode.com/problems/binary-tree-postorder-traversal/description/](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)
 
@@ -75,7 +79,9 @@ class Solution:
 
 **Pre-order**: root -> left -> right
 
-<div align="left"><figure><img src="broken-reference" alt="" width="262"><figcaption><p>[1,2,4,5,6,7,3,8,9]</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (11).png" alt="" width="262"><figcaption></figcaption></figure></div>
+
+\[1,2,4,5,6,7,3,8,9]
 
 [https://leetcode.com/problems/binary-tree-preorder-traversal/](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 
