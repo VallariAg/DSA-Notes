@@ -40,6 +40,7 @@ d['cat'] # 0
 ```python
 val in set1           # O(1) operation  
 set([1,2]) - set([1]) = set([2])  # substraction
+[set()] * 9  ## DON'T DO THIS - all 9 will be ref to same set object
 
 ```
 
