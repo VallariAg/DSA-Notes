@@ -66,6 +66,11 @@ class Solution:
 
 ```
 
+#### Counting Sort<br>
+
+```
+```
+
 #### Merge Sort
 
 ```
