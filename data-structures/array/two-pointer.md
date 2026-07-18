@@ -12,13 +12,13 @@ Implementation: How-to _Pointers_ when solving two-pointer questions:
 
 
 
-**Trick of solving the questions:**&#x20;
+**Trick of solving the questions (what to practice):**&#x20;
 
 1\) sort the array&#x20;
 
-2\) sometimes (many times) its actually 3 pointer
+2\) sometimes (many times) its actually 3 pointer - (usually run a `for` loop for third pointer and solve two pointer)
 
-3\) check where best to start pointers (start+end OR start+start OR end+end)&#x20;
+3\) check where best to start pointers - (start+end OR start+start OR end+end)&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2026-07-03 at 1.36.03 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -32,7 +32,9 @@ Implementation: How-to _Pointers_ when solving two-pointer questions:
     Problem: Find all 3-number subsets in array where a+b+c=0
 
     Solution: Loop through array for a + do 2Sum for b and c
-3. Trapping rain water: [https://leetcode.com/problems/trapping-rain-water/](https://leetcode.com/problems/trapping-rain-water/)
+3.  Trapping rain water: [https://leetcode.com/problems/trapping-rain-water/](https://leetcode.com/problems/trapping-rain-water/)
+
+    Don't try to solve it in O(1) space - it is a weird unique solution, solve in O(n) space first. &#x20;
 4. Container with most water: [https://leetcode.com/problems/container-with-most-water/](https://leetcode.com/problems/container-with-most-water/)
 
 Other problems:
