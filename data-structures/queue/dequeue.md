@@ -28,3 +28,8 @@ numbers.append(5) # [2, 2, 3, 5]
 Implemenation:
 
 * How to implement: [https://realpython.com/python-deque/](https://realpython.com/python-deque/)
+
+### Questions to TRY
+
+1. [https://leetcode.com/problems/sliding-window-maximum/](https://leetcode.com/problems/sliding-window-maximum/)&#x20;
+   1. This question uses a "monotonic queue" which is just a sorted queue ("decreasing monotonic" if its high->low, "increasing monotonic" if its low->high)
